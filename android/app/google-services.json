@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "183053139887",
+    "project_id": "alcaldia-728c3",
+    "storage_bucket": "alcaldia-728c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183053139887:android:bce28618cdf4163ba4395a",
+        "android_client_info": {
+          "package_name": "com.example.login_screen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183053139887-bh3g3j8snieo26cdr4jc5s7fjajror2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJII7K6ANu6Tk5pePZetpX4cg1uiJx6i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183053139887-bh3g3j8snieo26cdr4jc5s7fjajror2t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "183053139887-pm1q8jqel0htmutfpjbmp2icl3gltu06.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appGestionPrestamoInventario"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

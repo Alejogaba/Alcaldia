@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>183053139887-vetlhgmrdp9hfbcpfe98t6em8betgopr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.183053139887-vetlhgmrdp9hfbcpfe98t6em8betgopr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBirmXuZB5EC3zQpdge2BLfEp1QJ_mpTOo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>183053139887</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.loginScreen</string>
+	<key>PROJECT_ID</key>
+	<string>alcaldia-728c3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alcaldia-728c3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:183053139887:ios:d4315b43cf71e372a4395a</string>
+</dict>
+</plist>
