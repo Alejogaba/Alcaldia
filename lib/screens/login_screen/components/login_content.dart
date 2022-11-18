@@ -34,10 +34,12 @@ class LoginContent extends StatefulWidget {
   }
 
 //signOutGoogle
-  Future<void> signOutGoogle() async {
-    await FirebaseAuth.instance.signOut();
-
-    print(", Usted a cerrado session.");
+  Future<bool> signOutGoogle() async {
+    late bool result;
+    await FirebaseAuth.instance.signOut().whenComplete(() => result = true);
+    print("Cierre de sesión");
+    return result;
+    
   }
 }
 

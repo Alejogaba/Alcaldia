@@ -26,14 +26,16 @@ class _PrincipalAdminState extends State<PrincipalAdmin> {
       body: Center(
         child: MaterialButton(
           onPressed: () async {
-            LoginContent().signOutGoogle();
-            Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (context) {
-                  return LoginScreen();
-                },
-              ),
-            );
+            Future<bool> result = const LoginContent().signOutGoogle();
+            await result
+                ? Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return const LoginScreen();
+                      },
+                    ),
+                  )
+                : null;
           },
           color: Colors.blue,
           child: Icon(Icons.logout),
